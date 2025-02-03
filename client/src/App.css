@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0f7fa; /* Light cyan background */
+  color: #00695c; /* Dark cyan text */
+}
+
+input[type="file"] {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #00695c;
+  border-radius: 5px;
+  background-color: #b2dfdb;
+  color: #004d40;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  margin-top: 20px;
+  color: #00695c;
+}
+
+.results {
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #00695c;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.results-table td, .results-table th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #b2dfdb; /* Light green background for table cells */
+  color: #004d40; /* Dark green text */
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #e0f7fa; /* Light cyan background for even rows */
+}
+
+.results-table tr:hover {
+  background-color: #80deea; /* Light teal background on hover */
+}
+
+.word-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.word-list li {
+  background-color: #e1bee7; /* Light purple background */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #4a148c; /* Dark purple text */
+}
+
+h2, h3 {
+  color: #004d40; /* Dark green text for headers */
+}
