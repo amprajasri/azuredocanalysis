@@ -1,4 +1,4 @@
-##Setup Instructions
+## Setup Instructions
 
 1.Clone the Repository:
   git clone https://github.com/amprajasri/azure.git
