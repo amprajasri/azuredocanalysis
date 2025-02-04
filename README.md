@@ -4,7 +4,7 @@
 ## Setup Instructions
 
 ### 1.Clone the Repository:
-  git clone https://github.com/amprajasri/azure.git
+  git clone https://github.com/amprajasri/azuredocanalysis
   cd azure
 ### 2.Install Dependencies: 
   Server:
